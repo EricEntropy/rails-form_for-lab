@@ -1,5 +1,5 @@
 require 'rails_helper'
-
+system('clear')
 describe SchoolClass do
   before(:each) do
     @school_class = SchoolClass.create!(title: "Computer Science", room_number: 5)
